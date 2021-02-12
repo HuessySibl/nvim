@@ -29,6 +29,9 @@ let g:fzf_command_prefix = 'FZF'
 Plug 'drewtempelmeyer/palenight.vim'
 ""color scheme end""
 
+if filereadable(expand('./custom/init.vim'))
+	execute 'source ' . expand('./custom/init.vim')
+endif
 call plug#end()
 
 nnoremap <silent> <F3> :YcmCompleter GoTo<CR>
