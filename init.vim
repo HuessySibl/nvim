@@ -47,7 +47,10 @@ nnoremap <silent> <c-p> :FZF<CR>
 
 ""flags and config""
 set ic
-set tabstop=4
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set termguicolors
+set background=dark
+set number
 ""flags and config""
 
 " Markdown.
@@ -58,8 +61,6 @@ let g:markdown_fenced_languages = [
 			\ ]
 autocmd initvim FileType markdown setlocal spell
 
-set termguicolors
-set background=dark
 colorscheme palenight
 
 
