@@ -27,6 +27,7 @@ if [ "$curl_installed" == "curl:" ]; then
 fi
 
 echo "Found curl. $curl_installed"
+
 echo "Install python dependency."
 sudo apt-get install -y libpython-all-dev
 
