@@ -18,6 +18,8 @@ After cloning run the load.sh script:
 ``./load.sh
 ``
 
+It will download curl, python dependencies, cmake via apt and neovim and the Plug plugin manager with curl.
+
 In the config/nvim/bin lies the nvim-appimage which is used to start neovim. You can create an alias or something similar for it.
 <br>
 
