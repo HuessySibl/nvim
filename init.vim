@@ -41,7 +41,7 @@ endif
 ""key binds""
 nnoremap <silent> <F3> :YcmCompleter GoTo<CR>
 nnoremap <silent> <F4> :YcmCompleter GoToReferences<CR>
-nnoremap <silent> <c-l> :FZFHistory<CR>
+nnoremap <silent> <c-f> :FZFHistory<CR>
 nnoremap <silent> <c-p> :FZF<CR>
 ""key binds""
 
