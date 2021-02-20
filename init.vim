@@ -53,14 +53,6 @@ set background=dark
 set number
 ""flags and config""
 
-" Markdown.
-let g:markdown_fenced_languages = [
-			\   'c', 'cpp', 'lisp', 'clojure', 'sh', 'bash=sh', 'css',
-			\   'javascript', 'js=javascript', 'json=javascript', 'perl', 'php',
-			\   'python', 'ruby', 'html', 'vim', 'desktop', 'diff',
-			\ ]
-autocmd initvim FileType markdown setlocal spell
-
 colorscheme palenight
 
 
