@@ -42,7 +42,10 @@ plug_link="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
 curl -fLo ./autoload/plug.vim "$plug_link"
 echo "Downloaded plug.vim to ./autoload"
 
-echo "Finished downloads. Please run neovim image and :PlugInstall."
+echo "Finished downloads."
+
+echo "Installing plugins."
+./bin/nvim-appimage +PlugUpdate +qall
 
 
 
