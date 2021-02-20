@@ -11,10 +11,14 @@
 
 ## installation
 
-After cloning this project run the load.sh script:
+This project has to be cloned to ~/.config/
+<br>
+After cloning run the load.sh script:
 
 ``./load.sh
 ``
 
-When the script finished, create an alias or something similar to the nvim appimage. After executing for the first time, use :PlugInstall
+In the config/nvim/bin lies the nvim-appimage which is used to start neovim. You can create an alias or something similar for it.
+
+
 
