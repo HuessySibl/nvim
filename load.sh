@@ -1,32 +1,11 @@
 #!/bin/bash
 
-# check curl installed
-curl_installed=$(whereis curl)
 
-if [ "$curl_installed" == "curl:" ]; then
-    while true
-    do
-        printf "Curl is not installed.\nWould you like to install curl? (apt) (y-n): "
+echo "Installing curl to fetch files."
+sudo apt-get install curl
 
-        read user_install_curl
-        user_install_curl=$(echo "$user_install_curl" | awk '{print tolower($0)}')
-
-        if [ "$user_install_curl" == "y" ]; then
-            echo "After installation, please rerun this script."
-            sudo apt-get install curl
-            exit 0
-        fi
-
-        if [ "$user_install_curl" == "n" ]; then
-            echo "Exiting."
-            exit 0
-        fi
-    done
-
-    exit 0
-fi
-
-echo "Found curl. $curl_installed"
+echo "Installing cmake for building plugins."
+sudo apt-get install cmake
 
 echo "Install python dependency."
 sudo apt-get install -y libpython-all-dev
