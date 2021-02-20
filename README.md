@@ -19,6 +19,11 @@ After cloning run the load.sh script:
 ``
 
 In the config/nvim/bin lies the nvim-appimage which is used to start neovim. You can create an alias or something similar for it.
+<br>
+
+You can put your own init.vim file in the /custom folder.
+<br>
+It will always be loaded in addition to the project's root directory init.vim.
 
 
 
