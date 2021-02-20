@@ -39,6 +39,7 @@ if filereadable(expand('~/.config/nvim/custom/init.vim'))
 endif
 
 ""key binds""
+nnoremap <silent> <F2> :Autoformat<CR>
 nnoremap <silent> <F3> :YcmCompleter GoTo<CR>
 nnoremap <silent> <F4> :YcmCompleter GoToReferences<CR>
 nnoremap <silent> <c-f> :FZFHistory<CR>
