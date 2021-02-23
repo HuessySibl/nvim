@@ -44,6 +44,18 @@ nnoremap <silent> <F3> :YcmCompleter GoTo<CR>
 nnoremap <silent> <F4> :YcmCompleter GoToReferences<CR>
 nnoremap <silent> <c-f> :FZFHistory<CR>
 nnoremap <silent> <c-p> :FZF<CR>
+
+""window nav"
+nnoremap <a-h> <c-w><c-h>
+nnoremap <a-j> <c-w><c-j>
+nnoremap <a-k> <c-w><c-k>
+nnoremap <a-l> <c-w><c-l>
+tnoremap <a-h> <c-\><c-n><c-w><c-h>
+tnoremap <a-j> <c-\><c-n><c-w><c-j>
+tnoremap <a-k> <c-\><c-n><c-w><c-k>
+tnoremap <a-l> <c-\><c-n><c-w><c-l>
+""window nav"
+
 ""key binds""
 
 ""flags and config""
