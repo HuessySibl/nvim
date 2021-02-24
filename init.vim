@@ -49,6 +49,11 @@ nnoremap <silent> <F4> :YcmCompleter GoToReferences<CR>
 nnoremap <silent> <c-f> :FZFHistory<CR>
 nnoremap <silent> <c-p> :FZF<CR>
 
+
+"""navigation 
+noremap j gj
+noremap k gk
+""
 ""window nav"
 nnoremap <a-h> <c-w><c-h>
 nnoremap <a-j> <c-w><c-j>
