@@ -7,6 +7,7 @@
 <li>https://github.com/Chiel92/vim-autoformat</li>
 <li>https://github.com/junegunn/fzf</li>
 <li>https://github.com/AlxHnr/project-chdir.vim</li>
+<li>https://github.com/tpope/vim-fugitive</li>
 </ol>
 
 ## installation

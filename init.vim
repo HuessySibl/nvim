@@ -32,6 +32,10 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'AlxHnr/project-chdir.vim'
 """AlxlHnr chdir""
 
+"""vim fugitive"""
+Plug 'tpope/vim-fugitive'
+"""vim fugitive"""
+
 call plug#end()
 
 if filereadable(expand('~/.config/nvim/custom/init.vim'))
@@ -67,5 +71,3 @@ set number
 ""flags and config""
 
 colorscheme palenight
-
-
