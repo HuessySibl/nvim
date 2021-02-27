@@ -48,6 +48,7 @@ nnoremap <silent> <F3> :YcmCompleter GoTo<CR>
 nnoremap <silent> <F4> :YcmCompleter GoToReferences<CR>
 nnoremap <silent> <c-f> :FZFHistory<CR>
 nnoremap <silent> <c-p> :FZF<CR>
+nnoremap <silent> <esc><esc> :noh<CR>:pc<CR>
 
 
 """navigation 
